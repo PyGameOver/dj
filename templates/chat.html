@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天机器人</title>
+</head>
+<body>
+<form method="post" action="/chat/">
+        {% csrf_token %}
+        <p>输入：<input type="text" name="content" ></p>
+        <p>&emsp;&emsp;&emsp;&emsp;<input type="submit" value="对话"></p>
+    </form>
+
+</body>
+</html>

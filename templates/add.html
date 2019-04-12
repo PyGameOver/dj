@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组求和</title>
+</head>
+<body>
+    <form method="post" action="/add/">
+        {% csrf_token %}
+        <p >输入数组：<input style="width: 350px" type="text" name="array" placeholder= '{"value_array":[{"value":50},{"value":12},{"value":10}]}'></p>
+        <p>&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" value="求和"></p>
+    </form>
+
+</body>
+</html>
